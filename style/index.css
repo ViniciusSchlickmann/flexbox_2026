@@ -4,19 +4,92 @@ body {
 
 .decorativo {
     width: 3%;
-    height: 500px;
-    background-color: rgb(57, 137, 206);
+    background-color: #506283;
     border-radius: 16px 0px 0px 16px;
 }
 
 .resumo {
     width: 30%;
-    height: 500px;
-    background-color: yellow;
 }
 
 .infos_pessoais {
     width: 67%;
-    height: 500px;
     background-color: red;
+}
+
+.identificacao {
+    background-color: #dadada;
+    padding-bottom: 5%;
+}
+
+.identificacao img{
+    width: 80%;
+    border-radius: 200px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.identificacao h1{
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.identificacao h2{
+    font-size: 56px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 90%;
+}
+
+.identificacao p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contato div{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.contato img {
+    width: 48px;
+    height: 48px;
+    padding-right: 3%;
+}
+
+.contato p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.idiomas h1, .habilidades h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.idiomas div, .habilidades div {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.idiomas img, .habilidades img {
+    width: 64px;
+    padding-right: 3%;
 }
