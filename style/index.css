@@ -89,7 +89,33 @@ hr {
     padding-top: 3%;
 }
 
-.idiomas img, .habilidades img {
+#dot {
+    width: 24px;
+    padding-right: 3%;
+}
+
+.img_title {
     width: 64px;
     padding-right: 3%;
+}
+
+.bolinha_azul {
+    height: 8px;
+    background-color: #506283;
+    margin-right: 4px;
+    border-radius: 100px;
+}
+
+.bolinha_cinza {
+    height: 8px;
+    background-color: #dadada;
+    margin-right: 4px;
+    border-radius: 100px;
+}
+
+.idiomas p, .habilidades p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 130px;
 }
